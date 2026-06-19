@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://djt6eivqs1mm"]
 
+[ext_resource type="Script" uid="uid://0mqdwp1sgf14" path="res://script.gd" id="1_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://cqx24ov4q0iqj" path="res://合影.jpg" id="1_ig7tw"]
 
 [node name="Control" type="Control" unique_id=1175644660]
@@ -9,6 +10,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_0xm2m")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1658314121]
 layout_mode = 1
